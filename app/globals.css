@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list {
+	&:nth-child(odd) {
+		background-color: rgba(0, 68, 255, 0.3);
+		border-bottom: 2px solid rgba(0, 0, 255, 0.6);
+	}
+	&:nth-child(even) {
+		background-color: rgba(0, 0, 245, 0.6);
+		border-bottom: 2px solid rgba(0, 0, 245, 1);
+	}
+}
